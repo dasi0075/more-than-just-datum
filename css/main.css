@@ -1,5 +1,19 @@
 html {
-  font-family: IBM Plex Sans, sans-serif;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+body {
+  background-color: #ddd;
+}
+
+table,
+ul {
+  background-color: #fff;
+}
+
+table {
+  width: auto;
+  max-width: 100%;
 }
 
 .search {
@@ -8,4 +22,8 @@ html {
 
 .logo {
   max-width: 200px;
+}
+
+.nearest {
+  background-color: #efefef;
 }
