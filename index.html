@@ -11,37 +11,39 @@
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,500,700" rel="stylesheet">
   </head>
   <body>
-
-    <div class="">
-      <img class="logo" src="images/logo.svg" alt="">
-    </div>
-    <form class="push wrapper gutter">
-      <div class="search-engine">
-        <img class="search" src="images/search.svg" alt="">
-        <input type="text" name="search" value="">
+    <div class="grid island">
+      <div class="unit xs s m-1-2 l-1-2 ">
+        <img class="logo" src="images/logo.svg" alt="">
       </div>
-    </form>
-    <table class="nearest">
-      <caption class="bold no-italic">Nearest Playgrounds</caption>
-      <div class="wrapper">
-        <ul class="push list-group island">
-          <li class="bold micro">373</li>
-          <li class="italic micro">Distance</li>
-          <li>0.75km</li>
-        </ul>
-        <ul class="push list-group island">
-          <li class="bold micro">1700</li>
-          <li class="italic micro">Distance</li>
-          <li>2.58km</li>
-        </ul>
-        <ul class="push list-group island">
-          <li class="bold micro">960</li>
-          <li class="italic micro">Distance</li>
-          <li>3.03km</li>
-        </ul>
+      <div class="unit xs s m-1-2 l-1-2 ">
+        <form class="push wrapper">
+          <div class="search-engine">
+            <img class="search absolute zindex-1000" src="images/search.svg" alt="">
+            <input class="relative" type="search" name="search" value="">
+          </div>
+        </form>
+      </div>
     </div>
-    </table>
-
+    <div class"grid">
+    <div class="unit xs s m-1-2 l-1-2 nearest wrapper island-1-2 push">
+      <p class="bold no-italic">Nearest Playgrounds</p>
+      <ul class="push list-group island">
+        <li class="bold micro">373</li>
+        <li class="italic micro">Distance</li>
+        <li>0.75km</li>
+      </ul>
+      <ul class="push list-group island">
+        <li class="bold micro">1700</li>
+        <li class="italic micro">Distance</li>
+        <li>2.58km</li>
+      </ul>
+      <ul class="push list-group island">
+        <li class="bold micro">960</li>
+        <li class="italic micro">Distance</li>
+        <li>3.03km</li>
+      </ul>
+    </div>
+    <div class="unit xs s m-1-2 l-1-2 wrapper">
     <table class="right-text micro island wrapper">
       <caption class="bold">Playgrounds in the City</caption>
       <thead class="bold">
@@ -335,5 +337,7 @@
 
       </tbody>
     </table>
+  </div>
+</div>
   </body>
 </html>
