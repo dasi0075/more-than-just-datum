@@ -11,22 +11,23 @@
   <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,500,700" rel="stylesheet">
 </head>
 <body>
+  <h1 class="hidden">Playground Finder</h1>
   <div class="grid island">
     <div class="unit xs s m-1-2 l-1-2 ">
       <img class="logo" src="images/logo.svg" alt="">
     </div>
     <div class="unit xs-1 s-1 m-1-2 l-1-2 ">
-      <form class="push wrapper">
+      <div class="push wrapper">
         <div class="search-engine">
           <img class="search absolute zindex-1000" src="images/search.svg" alt="">
-          <input class="relative" type="Search" name="Search" value="">
+          <input class="relative" type="Search" name="Search" value="" required>
         </div>
-      </form>
+      </div>
     </div>
   </div>
   <div class="grid">
-    <div class="unit xs-1 s-1 m-1-4 l-1-4 nearest wrapper island-1-2 micro push">
-      <h1 class="bold no-italic giga">Nearest playgrounds</h1>
+    <form class="unit xs-1 s-1 m-1-4 l-1-4 nearest wrapper island-1-2 micro push">
+      <label class="bold no-italic giga">Nearest playgrounds</label>
       <ul class="push list-group island">
         <li class="bold">373</li>
         <li class="italic">Distance</li>
@@ -42,11 +43,11 @@
         <li class="italic">Distance</li>
         <li>3.03 km</li>
       </ul>
-    </div>
+    </form>
     <div class="unit xs-1 s-1 m-3-4 l-3-4 wrapper micro">
       <table class="right-text island wrapper">
         <caption class="bold no-italic">Playgrounds in the city</caption>
-        <thead class="bold">
+        <thead class="bold nano">
           <tr>
             <th class="id" scope="col">Park ID</th>
             <th class="park-type" scope="col">Park type</th>
